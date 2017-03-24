@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the oprofile Component." permissionId="oprofile_VIEW"/>
+    <SecurityPermission description="Create operations in the oprofile Component." permissionId="oprofile_CREATE"/>
+    <SecurityPermission description="Update operations in the oprofile Component." permissionId="oprofile_UPDATE"/>
+    <SecurityPermission description="Delete operations in the oprofile Component." permissionId="oprofile_DELETE"/>
+    <SecurityPermission description="ALL operations in the oprofile Component." permissionId="oprofile_ADMIN"/>
+
+    <SecurityGroupPermission groupId="SUPER" permissionId="oprofile_ADMIN"/>
+
+</entity-engine-xml>
